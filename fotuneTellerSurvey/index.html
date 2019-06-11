@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Luck Survey</h2>
+    </div>
+    <form id="luck-survey">
+      <div class="form-group">
+        <p>In the past month, I have experienced the following events:</p>
+        <input type="checkbox" name="unlucky-event" value="cat">Seeing a black cat.<br>
+        <input type="checkbox" name="unlucky-event" value="mirror">Breaking a mirror.<br>
+        <input type="checkbox" name="unlucky-event" value="crack">Stepping on a crack.<br>
+        <input type="checkbox" name="unlucky-event" value="other">Another unlucky event.<br>
+      </div>
+      <div class="form-group">
+        <p>In the past month, I have experieced the following events:</p>
+        <input type="checkbox" name="lucky-event" value="clover">Finding a 4-leaf clover.<br>
+        <input type="checkbox" name="lucky-event" value="money">Finding money on the ground.<br>
+        <input type="checkbox" name="lucky-event" value="rainbow">Seeing a rainbow.<br>
+        <input type="checkbox" name="lucky-event" value="other">Another lucky event.<br>
+      </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+    <span id="unlucky-results">
+      <p><b>You are looking a little unlucky. Be extra careful!</b></p>
+    </span>
+    <br>
+    <span id="lucky-results">
+      <p><b>You are looking a little lucky. Try your luck today!</b></p>
+    </span>
+    <br>
+    <span id="neutral-results">
+      <p><b>Your luck is neutral.</b></p>
+    </span>
+  </div>
+</body>
+</html>
